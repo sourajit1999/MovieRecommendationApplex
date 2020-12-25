@@ -1,4 +1,4 @@
-package com.mymovielist.moviedirectory;
+package com.applex.moviedirectory;
 
 import org.junit.Test;
 

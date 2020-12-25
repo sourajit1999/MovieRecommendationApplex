@@ -1,11 +1,10 @@
-package com.mymovielist.moviedirectory.Activity;
+package com.applex.moviedirectory;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.mymovielist.moviedirectory.Data.MovieRecyclerViewAdapter;
-import com.mymovielist.moviedirectory.Model.Movie;
-import com.mymovielist.moviedirectory.R;
-import com.mymovielist.moviedirectory.Utils.Constants;
+import com.applex.moviedirectory.model.Movie;
+import com.applex.moviedirectory.R;
+import com.applex.moviedirectory.utils.Constants;
 import com.squareup.picasso.Picasso;
 
 import android.content.Intent;
@@ -16,7 +15,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 

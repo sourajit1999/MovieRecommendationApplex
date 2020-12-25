@@ -1,27 +1,20 @@
-package com.mymovielist.moviedirectory.Activity;
+package com.applex.moviedirectory;
 
 import android.app.AlertDialog;
-import android.app.DownloadManager;
 import android.content.Context;
 import android.os.AsyncTask;
-import android.os.Build;
 import android.os.Bundle;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
-import com.android.volley.VolleyLog;
 import com.android.volley.toolbox.JsonObjectRequest;
-import com.android.volley.toolbox.Volley;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.mymovielist.moviedirectory.Data.MovieRecyclerViewAdapter;
-import com.mymovielist.moviedirectory.Model.Movie;
-import com.mymovielist.moviedirectory.R;
-import com.mymovielist.moviedirectory.Utils.Constants;
-import com.mymovielist.moviedirectory.Utils.Prefs;
+import com.applex.moviedirectory.adapters.MovieRecyclerViewAdapter;
+import com.applex.moviedirectory.model.Movie;
+import com.applex.moviedirectory.utils.Prefs;
 
-import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -42,17 +35,14 @@ import org.json.JSONObject;
 
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
 import javax.net.ssl.HttpsURLConnection;
 
-import static com.android.volley.Request.*;
-import static com.mymovielist.moviedirectory.Utils.Constants.API_KEY;
-import static com.mymovielist.moviedirectory.Utils.Constants.URL_LEFT;
-import static com.mymovielist.moviedirectory.Utils.Constants.URL_RIGHT;
+import static com.applex.moviedirectory.utils.Constants.API_KEY;
+import static com.applex.moviedirectory.utils.Constants.URL_LEFT;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -1,7 +1,6 @@
-package com.mymovielist.moviedirectory.Utils;
+package com.applex.moviedirectory.utils;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.SharedPreferences;
 
 public class Prefs {

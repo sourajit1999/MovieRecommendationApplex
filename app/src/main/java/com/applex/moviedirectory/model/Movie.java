@@ -1,4 +1,4 @@
-package com.mymovielist.moviedirectory.Model;
+package com.applex.moviedirectory.model;
 
 import java.io.Serializable;
 

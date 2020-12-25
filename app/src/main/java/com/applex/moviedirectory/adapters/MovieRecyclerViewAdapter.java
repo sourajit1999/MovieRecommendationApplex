@@ -1,4 +1,4 @@
-package com.mymovielist.moviedirectory.Data;
+package com.applex.moviedirectory.adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -7,14 +7,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.mymovielist.moviedirectory.Activity.MovieDetailsActivity;
-import com.mymovielist.moviedirectory.Model.Movie;
-import com.mymovielist.moviedirectory.R;
+import com.applex.moviedirectory.MovieDetailsActivity;
+import com.applex.moviedirectory.model.Movie;
+import com.applex.moviedirectory.R;
 import com.squareup.picasso.*;
 
 import java.util.List;
